@@ -1,0 +1,14 @@
+{
+  "tarefas": [
+    { "id": 1, "titulo": "Projeto de software em grupo", "status": "fazer", "prioridade": "media", "prazo": "2026-10-02" },
+    { "id": 2, "titulo": "Atividade de Estrutura de Dados", "status": "fazer", "prioridade": "alta", "prazo": "2026-09-18" },
+    { "id": 3, "titulo": "Tutorial de Unity", "status": "fazer", "prioridade": "baixa", "prazo": "2026-09-29" },
+    { "id": 4, "titulo": "Estudar Fetch API", "status": "andamento", "prioridade": "alta", "prazo": "2026-09-17" },
+    { "id": 5, "titulo": "Revisar documentação do projeto", "status": "andamento", "prioridade": "media", "prazo": "2026-09-23" },
+    { "id": 6, "titulo": "Tratar erros de tela", "status": "revisao", "prioridade": "alta", "prazo": "2026-09-12" },
+    { "id": 7, "titulo": "Modelagem do banco do AgroConecta", "status": "revisao", "prioridade": "media", "prazo": "2026-09-26" },
+    { "id": 8, "titulo": "HTML puro do organizador", "status": "concluida", "prioridade": "alta", "prazo": "2026-08-12" },
+    { "id": 9, "titulo": "Atividade de banco de dados", "status": "concluida", "prioridade": "baixa", "prazo": "2026-09-10" },
+    { "id": 10, "titulo": "Minerar 64x Ferro", "status": "concluida", "prioridade": "baixa", "prazo": "2026-09-10" },
+    { "id": 11, "titulo": "Matar Ender Dragon", "status": "fazer", "prioridade": "media", "prazo": "2026-09-24" }]
+}

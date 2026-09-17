@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minha Base de Tarefas</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="ceu"></div>
+
+<header>
+  <h1>BASE DE TAREFAS</h1>
+  <p>craftado em HTML, CSS e JS puro</p>
+</header>
+
+<main>
+
+  <div class="mesa-de-trabalho">
+
+    <h2>MESA DE CRAFTING</h2>
+
+    <form id="form-filtros">
+
+      <div class="slot-filtro">
+        <label for="busca-titulo">buscar item</label>
+        <input type="search" id="busca-titulo" name="busca" placeholder="nome tarefa">
+      </div>
+
+      <div class="slot-filtro">
+        <label for="status-filtro">bau</label>
+        <select id="status-filtro" name="status">
+          <option value="">todos</option>
+          <option value="fazer">a fazer</option>
+          <option value="andamento">andamento</option>
+          <option value="revisao">revisao</option>
+          <option value="concluida">concluida</option>
+        </select>
+      </div>
+
+      <div class="slot-filtro">
+        <label for="prioridade-filtro">minerio</label>
+        <select id="prioridade-filtro" name="prioridade">
+          <option value="">todos</option>
+          <option value="baixa">ferro</option>
+          <option value="media">ouro</option>
+          <option value="alta">diamante</option>
+        </select>
+      </div>
+
+      <div class="slot-filtro">
+        <label for="ordenacao-filtro">ordenar</label>
+        <select id="ordenacao-filtro" name="ordenacao">
+          <option value="">padrao</option>
+          <option value="prazo-asc">prazo mais perto</option>
+          <option value="prazo-desc">prazo mais longe</option>
+        </select>
+      </div>
+
+      <button type="button" id="botao-limpar">LIMPAR</button>
+
+    </form>
+
+  </div>
+
+  <p id="status-regiao" role="status" aria-live="polite"></p>
+
+  <div class="mundo">
+
+    <section class="bau bau-fazer">
+      <h2>A FAZER</h2>
+      <ul id="lista-fazer"></ul>
+    </section>
+
+    <section class="bau bau-andamento">
+      <h2>ANDAMENTO</h2>
+      <ul id="lista-andamento"></ul>
+    </section>
+
+    <section class="bau bau-revisao">
+      <h2>REVISAO</h2>
+      <ul id="lista-revisao"></ul>
+    </section>
+
+    <section class="bau bau-concluida">
+      <h2>CONCLUIDA</h2>
+      <ul id="lista-concluida"></ul>
+    </section>
+
+  </div>
+
+</main>
+
+<footer>
+  <p>Bandeira HX | Desenvolvimento Frontend - ULBRA</p>
+</footer>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
